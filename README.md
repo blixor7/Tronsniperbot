@@ -1,34 +1,46 @@
-# TRON Sniper
+#  TRON Sniper Bot
 
-This bot is designed to help you snipe and trade tokens on the TRON blockchain. It's highly configurable and easy to set up.
+TRON Sniper is a **fast, automated trading assistant** built for the **TRON blockchain**.
+It helps you **snipe tokens at launch, manage trades effortlessly, and stay in control**—all from Telegram.
 
-## Features
+---
 
-- **Automated Token Sniping**: Monitor specific token contracts and automatically execute trades as soon as a liquidity pair is established on SunSwap.
-- **Effortless Trading**: Simplify buying and selling tokens on the TRON network with automated trade execution.
-- **Telegram Integration**: Control and monitor the bot directly from your Telegram account with an intuitive interface.
-- **Secure Data Storage with MongoDB**: Store user data securely using MongoDB, ensuring privacy and reliability.
+##  What It Can Do
 
-## Getting Started
+*  **Token Sniping Made Easy**
+  Detect liquidity pairs on **SunSwap** the moment they appear and auto-execute trades.
 
-### Prerequisites
+*  **Hands-Free Trading**
+  Automate buys and sells on TRON with precision timing.
 
-Make sure you have the following installed on your machine:
+*  **Telegram Integration**
+  Manage your wallets, positions, and snipes directly from Telegram.
 
-- Node.js (v16 or higher)
-- npm or yarn
-- [MongoDB](https://www.mongodb.com/docs/manual/administration/install-community/)
+*  **Secure Data Management**
+  MongoDB ensures your data stays private, safe, and reliable.
 
-### Installation
+---
 
-1. Clone the repository:
+## 🚀 Getting Started
+
+### Requirements
+
+Before running the bot, make sure you have:
+
+* [Node.js](https://nodejs.org/) (v16 or newer)
+* npm or yarn
+* [MongoDB Community Server](https://www.mongodb.com/docs/manual/administration/install-community/)
+
+### Setup
+
+1. **Clone the repo**
 
    ```bash
    git clone https://github.com/impredmet/tron-sniper.git
    cd tron-sniper
    ```
 
-2. Install the dependencies:
+2. **Install dependencies**
 
    ```bash
    npm install
@@ -36,15 +48,16 @@ Make sure you have the following installed on your machine:
    yarn install
    ```
 
-3. Ensure your MongoDB server is running. You can start it with the following command:
+3. **Run MongoDB**
 
    ```bash
    mongod
    ```
 
-4. Open the `.env` file in the root directory of your project and modify it with your specific configuration.
+4. **Configure the bot**
+   Open `.env` in the project root and fill in your settings.
 
-5. Start the bot:
+5. **Start the bot**
 
    ```bash
    npm start
@@ -52,19 +65,24 @@ Make sure you have the following installed on your machine:
    yarn start
    ```
 
-The bot will now start and connect to Telegram, MongoDB, and the TRON network.
+---
 
-### Available Commands
+##  Telegram Commands
 
-- `/start`: Initializes the bot and provides a welcome message.
-- `/wallets`: Displays all wallets associated with your account.
-- `/positions`: Shows your current token positions.
-- `/pendingsnipes`: Lists all your pending sniping operations.
+* `/start` → Initialize and get a welcome message
+* `/wallets` → View linked wallets
+* `/positions` → See active token positions
+* `/pendingsnipes` → List all pending snipes
 
-### License
+---
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+##  License
 
-### Contributions
+Released under the **MIT License** – see [LICENSE](LICENSE).
 
-Contributions are welcome! If you have ideas for improvements or new features, feel free to fork the repository and submit a pull request.
+---
+
+##  Contributing
+
+Contributions are welcome!
+If you’ve got ideas, fixes, or new features, fork the repo and submit a PR.
