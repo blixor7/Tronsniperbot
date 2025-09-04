@@ -1,7 +1,7 @@
 #  TRON Sniper Bot
 
 TRON Sniper is a **fast, automated trading assistant** built for the **TRON blockchain**.
-It helps you **snipe tokens at launch, manage trades effortlessly, and stay in control**—all from Telegram.
+It helps you **snipe tokens at launch, manage trades effortlessly, and stay in control**, all from Telegram.
 
 ---
 
