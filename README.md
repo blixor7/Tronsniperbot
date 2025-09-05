@@ -17,7 +17,7 @@ It helps you **snipe tokens at launch, manage trades effortlessly, and stay in c
   Manage your wallets, positions, and snipes directly from Telegram.
 
 *  **Secure Data Management**
-  MongoDB ensures your data stays private, safe, and reliable.
+  MongoDB ensures your data stays private, safe, and reliable,
 
 ---
 
